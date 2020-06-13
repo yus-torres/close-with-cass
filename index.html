@@ -1,967 +1,534 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Close with Cass</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/overwrites.css">
+    <style>
+      .ie-panel { background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); }
+      .ie-panel { clear: both; text-align:center; position: relative;z-index: 1; display: none; }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel { display: block; }
+    </style>
+  </head>
 
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="ThemeStarz">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-	<title>Selfer - Personal Portfolio Template</title>
-
-</head>
-<body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
-    <div class="ts-page-wrapper" id="page-top">
-        <!--NAVIGATION ******************************************************************************************-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
-            <div class="container">
-                <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll" href="#page-top">
-                    <img src="assets/img/logo.png" alt="">
-                </a>
-                <!--end navbar-brand-->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--end navbar-toggler-->
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
-                        <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link ts-scroll" href="#my-services">Services</a>
-                        <a class="nav-item nav-link ts-scroll" href="#about-me">About Me</a>
-                        <a class="nav-item nav-link ts-scroll" href="#my-skills">Skills</a>
-                        <a class="nav-item nav-link ts-scroll" href="#portfolio">Portfolio</a>
-                        <a class="nav-item nav-link ts-scroll" href="#testimonials">Clients</a>
-                        <a class="nav-item nav-link ts-scroll mr-2" href="#form-contact">Contact</a>
-                    </div>
-                    <!--end navbar-nav-->
-                </div>
-                <!--end collapse-->
-            </div>
-            <!--end container-->
-        </nav>
-        <!--end navbar-->
-        <!--*********************************************************************************************************-->
-        <!--************ HERO ***************************************************************************************-->
-        <!--*********************************************************************************************************-->
-        <div id="ts-hero" class="ts-animate-hero-items">
-
-            <!--HERO CONTENT ****************************************************************************************-->
-            <div class="container position-relative h-100 ts-align__vertical">
-                <div class="row w-100">
-                    <div class="col-md-8">
-                        <!--SOCIAL ICONS-->
-                        <figure class="ts-social-icons mb-4">
-                            <a href="#" target="_blank" class="mr-3">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" target="_blank" class="mr-3">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" target="_blank" class="mr-3">
-                                <i class="fab fa-pinterest"></i>
-                            </a>
-                            <a href="#" target="_blank" class="mr-3">
-                                <i class="fab fa-slack"></i>
-                            </a>
-                            <a href="#" target="_blank" class="mr-3">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </figure>
-
-                        <!--TITLE -->
-                        <h1>I am Jonathan Doe</h1>
-                        <h1 class="ts-bubble-border">
-                            <span class="ts-title-rotate">
-                                <span class="active">Designer</span>
-                                <span>Photographer</span>
-                                <span>Creative Person</span>
-                            </span>
-                        </h1>
-
-                    </div>
-                    <!--end col-md-8-->
-                </div>
-                <!--end row-->
-                <a href="#my-services" class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3">
-                    <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
-                        <i class="fa fa-arrow-down text-white"></i>
-                    </span>
-                    <span class="ts-hidden ts-circle__sm rounded-0">
-                        <i class="fa fa-arrow-down text-white"></i>
-                    </span>
-                </a>
-
-            </div>
-            <!--end container-->
-            <!--END HERO CONTENT ************************************************************************************-->
-
-            <!--HERO BACKGROUND *************************************************************************************-->
-            <div class="ts-background">
-                <div class="ts-background-image" data-bg-image="assets/img/bg-hero.jpg"></div>
-            </div>
-            <!--END HERO BACKGROUND *********************************************************************************-->
-
+  <body>
+    <!-- .preloader -->
+    <div class="preloader">
+      <!-- .preloader-body -->
+      <div class="preloader-body">
+        <!-- .cssload-container -->
+        <div class="cssload-container">
+          <!-- .cssload-speeding-wheel -->
+          <div class="cssload-speeding-wheel"></div>
+          <!-- /.cssload-speeding-wheel -->
         </div>
-        <!--end #hero-->
+        <!-- /.cssload-container -->
 
-        <!--*********************************************************************************************************-->
-        <!--************ CONTENT ************************************************************************************-->
-        <!--*********************************************************************************************************-->
-        <main id="ts-content">
+        <p>Loading...</p>
+      </div>
+      <!-- /.preloader-body -->
+    </div>
+    <!-- /.preloader -->
+    
+    <!-- .page -->
+    <div class="page">
+      <!-- -->
+      <header class="section page-header page-header-main">
+        <!-- -->
+        <div class="rd-navbar-wrap">
+          <!-- -->
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-sidebar" data-xl-device-layout="rd-navbar-sidebar" data-xxl-layout="rd-navbar-sidebar" data-xxl-device-layout="rd-navbar-sidebar" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="1x" data-xxl-stick-up-offset="1px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <!-- -->
+            <div class="rd-navbar-main-outer">
+              <!-- -->
+              <div class="rd-navbar-main">
+                <!-- -->
+                <div class="rd-navbar-panel">
+                  <!-- -->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
 
-            <!--MY SERVICES ***********************************************************************************-->
-            <section id="my-services" class="ts-block ts-xs-text-center pb-0">
-                <div class="container">
-                    <div class="ts-title text-center">
-                        <h2>My Services</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon-brushes.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Web Design</h4>
-                                        <p class="mb-0">
-                                            Duis molestie enim mattis gravida viverra. Fusce ut eros augue. Sed id mauris vel neque
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                            <span>Read More</span>
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
-                                </div>
-                                <!--end ts-item-content-->
-                            </div>
-                            <!--end ts-item-->
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".1s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon-camera.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Photography</h4>
-                                        <p class="mb-0">
-                                            Fusce lorem ex, fringilla eget consequat ut, molestie sit amet nibh. Nullam vitae tincidunt
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                            <span>Read More</span>
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
-                                </div>
-                                <!--end ts-item-content-->
-                            </div>
-                            <!--end ts-item-->
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".2s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon-video.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Video Editing</h4>
-                                        <p class="mb-0">
-                                            Aenean pretium nulla libero, vitae iaculis libero efficitur a. Fusce ut augue finibus quam
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                            <span>Read More</span>
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
-                                </div>
-                                <!--end ts-item-content-->
-                            </div>
-                            <!--end ts-item-->
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".3s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon-pencil.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Copy Writing</h4>
-                                        <p class="mb-0">
-                                            Fusce lorem ex, fringilla eget consequat ut, molestie sit amet nibh. Nullam vitae tincidunt
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                            <span>Read More</span>
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
-                                </div>
-                                <!--end ts-item-content-->
-                            </div>
-                            <!--end ts-item-->
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".4s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon-lcd.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>Coding</h4>
-                                        <p class="mb-0">
-                                            Aenean pretium nulla libero, vitae iaculis libero efficitur a. Fusce ut augue finibus quam
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                            <span>Read More</span>
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
-                                </div>
-                                <!--end ts-item-content-->
-                            </div>
-                            <!--end ts-item-->
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <div class="ts-item" data-animate="ts-fadeInUp" data-delay=".5s">
-                                <div class="ts-item-content">
-                                    <div class="ts-item-header">
-                                        <figure class="icon">
-                                            <img src="assets/img/icon-phone.png" alt="">
-                                        </figure>
-                                        <!--end icon-->
-                                    </div>
-                                    <!--end ts-item-header-->
-                                    <div class="ts-item-body">
-                                        <h4>App Developing</h4>
-                                        <p class="mb-0">
-                                            Duis molestie enim mattis gravida viverra. Fusce ut eros augue. Sed id mauris vel neque
-                                        </p>
-                                    </div>
-                                    <!--end ts-item-body-->
-                                    <div class="ts-item-footer">
-                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
-                                            <span>Read More</span>
-                                        </a>
-                                    </div>
-                                    <!--end ts-item-footer-->
-                                </div>
-                                <!--end ts-item-content-->
-                            </div>
-                            <!--end ts-item-->
-                        </div>
-                        <!--end col-xl-4-->
-
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--END MY SERVICES *************************************************************************************-->
-
-            <section id="about-me" class="ts-block pb-4">
-                <div class="container">
-                    <div class="ts-title text-center">
-                        <h2>About Me</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row ts-align__vertical">
-                        <div class="col-md-6">
-                            <img src="assets/img/img-man-looking.jpg" alt="" class="mw-100 mb-5">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="ts-bubble-border">Hi There</h4>
-                            <p>
-                                In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum
-                                ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta
-                                sem turpis quis leo. Nulla in feugiat elit.
-                            </p>
-                            <dl class="ts-column-count-2">
-                                <dt>Name:</dt>
-                                <dd>Jonathan Doe</dd>
-                                <dt>Phone:</dt>
-                                <dd>+1 908-736-1801</dd>
-                                <dt>Email:</dt>
-                                <dd>hello@example.com</dd>
-                                <dt>Twitter:</dt>
-                                <dd>freelancer9</dd>
-                            </dl>
-                            <hr class="ts-hr-light mb-5">
-                            <a href="#contact" class="ts-btn-effect mr-2">
-                                <span class="ts-visible btn btn-primary ts-btn-arrow">Contact Me</span>
-                                <span class="ts-hidden btn btn-primary ts-btn-arrow" data-bg-color="#d44729">Contact Me</span>
-                            </a>
-                            <!--<a href="#contact" class="btn btn-primary ts-btn-arrow mr-2">Contact Me</a>-->
-                            <!--<a href="#contact" class="btn btn-outline-light ts-btn-border-light">-->
-                                <!--<i class="fa fa-download small mr-2"></i>-->
-                                <!--Download CV-->
-                            <!--</a>-->
-                            <a href="#contact" class="ts-btn-effect mr-2">
-                                <span class="ts-visible btn btn-outline-light">
-                                    <i class="fa fa-download small mr-2"></i>
-                                    Download CV
-                                </span>
-                                <span class="ts-hidden btn btn-light bg-white">
-                                    <i class="fa fa-download small mr-2"></i>
-                                    Download CV
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <!--end row-->
-                </div>
-            </section>
-
-            <section class="ts-block">
-                <div class="container">
-                    <div class="text-center px-5 pt-5 position-relative">
-                        <h3 class="my-3">
-                            Let’s Work Together On Your Next Project!
-                        </h3>
-                        <a href="#contact" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Hire Me Now!</a>
-                        <div class="ts-background ts-opacity__20" data-bg-image="assets/img/bg-keyboard.jpg"></div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="my-skills" class="ts-block pb-5">
-                <div class="container">
-                    <div class="ts-title text-center">
-                        <h2>My Skills</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <h4>Every Day is a  New Challenge</h4>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>
-                                In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum
-                                ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta
-                                sem turpis quis leo. Nulla in feugiat elit.
-                            </p>
-                            <p>
-                                Phasellus accumsan scelerisque dolor, quis mattis justo bibendum non. Nulla sollicitudin
-                                turpis in enim elementum varius. Vestibulum ante ipsum primis in faucibus orci luctus
-                                et ultrices posuere cubilia Curae
-                            </p>
-                            <a href="#contact" class="btn btn-outline-light mb-5">Contact Me</a>
-                        </div>
-                        <!--end col-md-6-->
-                        <div class="col-md-6">
-                            <div class="progress" data-progress-width="100%">
-                                <h5 class="ts-progress-title">Webdesign</h5>
-                                <figure class="ts-progress-value"></figure>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <!--end progress-->
-                            <div class="progress" data-progress-width="80%">
-                                <h5 class="ts-progress-title">Photography</h5>
-                                <figure class="ts-progress-value"></figure>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <!--end progress-->
-                            <div class="progress" data-progress-width="90%">
-                                <h5 class="ts-progress-title">Coding</h5>
-                                <figure class="ts-progress-value"></figure>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <!--end progress-->
-                            <div class="progress" data-progress-width="60%">
-                                <h5 class="ts-progress-title">Copywriting</h5>
-                                <figure class="ts-progress-value"></figure>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <!--end progress-->
-                        </div>
-                        <!--end col-md-6-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-
-            <section class="ts-block pb-5" id="portfolio">
-                <div class="container">
-                    <div class="ts-title">
-                        <h2>Portfolio</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="card-columns ts-gallery ts-column-count-4">
-                        <a href="assets/img/img-work-01.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__item-description">
-                                <h6 class="ts-opacity__50">Branding</h6>
-                                <h4>Pehaz</h4>
-                            </div>
-                            <img src="assets/img/img-work-01.png" class="card-img" alt="">
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-02.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Webdesign</h6>
-                                    <h4>Carilo</h4>
-                                </div>
-                                <img src="assets/img/img-work-02.png" class="card-img" alt="">
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-03.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-03.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Typography</h6>
-                                    <h4>Kali</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-04.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-04.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Identity</h6>
-                                    <h4>Purity</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-05.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-05.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Coding</h6>
-                                    <h4>SawMill</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-06.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-06.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Webdesign</h6>
-                                    <h4>Browar</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-07.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-07.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Experiment</h6>
-                                    <h4>Wood Tables</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-08.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-08.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Product Design</h6>
-                                    <h4>Air Purifier</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-10.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-10.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">App Developing</h6>
-                                    <h4>Boombox</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-11.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-11.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">3D Art</h6>
-                                    <h4>The Deer</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="assets/img/img-work-09.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
-                            <div class="ts-gallery__image">
-                                <img src="assets/img/img-work-09.png" class="card-img" alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50">Rebranding</h6>
-                                    <h4>Dafont</h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                    </div>
-                    <!--end ts-gallery-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--end portfolio-->
-
-            <section class="ts-block" data-bg-image="assets/img/bg-man-sitting.jpg">
-                <div class="container ts-promo-numbers">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="43">0</figure>
-                                <h5>Clients</h5>
-                            </div>
-                            <!--end ts-promo-number-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="68">0</figure>
-                                <h5>Projects</h5>
-                            </div>
-                            <!--end ts-promo-number-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="17">0</figure>
-                                <h5>Awards</h5>
-                            </div>
-                            <!--end ts-promo-number-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-3">
-                            <div class="ts-promo-number text-center">
-                                <figure class="odometer" data-odometer-final="12">0</figure>
-                                <h5>Years Experience</h5>
-                            </div>
-                            <!--end ts-promo-number-->
-                        </div>
-                        <!--end col-md-3-->
-                    </div>
-                </div>
-            </section>
-            <!--end ts-block-->
-
-            <section id="testimonials" class="ts-block text-center pb-5">
-                <div class="container">
-                    <div class="ts-title">
-                        <h2>Testimonials</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            <div class="owl-carousel" data-owl-dots="1" data-owl-loop="1" data-animate="ts-fadeInUp">
-                                <div class="slide mb-5">
-                                    <figure class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                        <i class="fa fa-quote-right"></i>
-                                    </figure>
-                                    <p class="ts-h5">
-                                        In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus
-                                        fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis
-                                    </p>
-                                    <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person.jpg"></div>
-                                    <h5>Jane Doe</h5>
-                                    <h6 class="ts-opacity__40">Bristol Creative</h6>
-                                </div>
-                                <!--end slide-->
-                                <div class="slide mb-5">
-                                    <figure class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                        <i class="fa fa-quote-right"></i>
-                                    </figure>
-                                    <p class="ts-h5">
-                                        Nam egestas porta posuere. Nunc velit lorem, vestibulum vitae massa nec, lacinia dictum
-                                        ligula. Quisque scelerisque nec dolor id convallis. Vestibulum porta ipsum pretium
-                                        turpis rhoncus, non fringilla ipsum mattis.
-                                    </p>
-                                    <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person-02.jpg"></div>
-                                    <h5>John Brown</h5>
-                                    <h6 class="ts-opacity__40">ABC Architects</h6>
-                                </div>
-                                <!--end slide-->
-                            </div>
-                            <!--end owl-carousel-->
-                        </div>
-                        <!--end col-md-8-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--end #testimonials ts-block-->
-
-            <!--LOGOS ***********************************************************************************************-->
-            <section id="partners" class="ts-block py-4">
-                <!--container-->
-                <div class="container">
-                    <!--block of logos-->
-                    <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners py-3">
-                        <a href="#">
-                            <img src="assets/img/logo-01-w.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="assets/img/logo-02-w.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="assets/img/logo-03-w.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="assets/img/logo-04-w.png" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="assets/img/logo-05-w.png" alt="">
-                        </a>
-                    </div>
-                    <!--end logos-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--END LOGOS *******************************************************************************************-->
-
-        </main>
-        <!--end #content-->
-
-        <!--*********************************************************************************************************-->
-        <!--************ FOOTER *************************************************************************************-->
-        <!--*********************************************************************************************************-->
-        <footer id="ts-footer" class="mt-5">
-
-            <section id="contact" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-man-wall.jpg" data-bg-image-opacity=".1">
-                <div class="container">
-                    <div class="ts-title text-center">
-                        <h2 class="ts-bubble-border">Get In Touch</h2>
-                    </div>
-                    <div class="row ts-xs-text-center ">
-                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp">
-                            <img src="assets/img/icon-pin.png" class="mb-4" alt="">
-                            <h5>Address</h5>
-                            <div class="ts-opacity__50">
-                                <figure class="mb-0">999 Carter Street</figure>
-                                <figure>Sailor Springs, IL 62434</figure>
-                            </div>
-                            <!--end ts-opacity__50-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".1s">
-                            <img src="assets/img/icon-phone-02.png" class="mb-4" alt="">
-                            <h5>Phone</h5>
-                            <div class="ts-opacity__50">
-                                <figure class="mb-0">+1 618-689-9409</figure>
-                                <figure>+1 781-254-8437</figure>
-                            </div>
-                            <!--end ts-opacity__50-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
-                            <img src="assets/img/icon-envelope.png" class="mb-4" alt="">
-                            <h5>Email</h5>
-                            <div class="ts-opacity__50">
-                                <figure class="mb-0">hello@example.com</figure>
-                                <figure>support@example.com</figure>
-                            </div>
-                            <!--end ts-opacity__50-->
-                        </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".3s">
-                            <img src="assets/img/icon-talk-bubble.png" class="mb-4" alt="">
-                            <h5>Facebook Chat</h5>
-                            <div class="ts-opacity__50">
-                                <figure>me.freelancer3</figure>
-                            </div>
-                            <!--end ts-opacity__50-->
-                        </div>
-                        <!--end col-md-3-->
-                    </div>
-                    <!--end row-->
-
-                    <div class="pt-5">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h3>Let’s Connect</h3>
-                                <div class="ts-column-count-sm-2">
-                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
-                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </span>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <!--end link-->
-                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
-                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i class="fab fa-twitter"></i>
-                                    </span>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <!--end link-->
-                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
-                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i class="fab fa-instagram"></i>
-                                    </span>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <!--end link-->
-                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
-                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i class="fab fa-pinterest-p"></i>
-                                    </span>
-                                        <span>Pinterest</span>
-                                    </a>
-                                    <!--end link-->
-                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical">
-                                    <span class="ts-circle__xs border border-white ts-border-light mr-4">
-                                        <i class="fab fa-skype"></i>
-                                    </span>
-                                        <span>Skype</span>
-                                    </a>
-                                    <!--end link-->
-                                </div>
-                            </div>
-                            <!--end col-md-4-->
-                            <div class="col-md-8">
-                                <h3>Send Me a Message</h3>
-                                <form id="form-contact" method="post" class="clearfix ts-form ts-form-email" data-php-path="assets/php/email.php">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="form-group">
-                                                <label for="form-contact-name">Name *</label>
-                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Name" required>
-                                            </div>
-                                            <!--end form-group -->
-                                        </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="form-group">
-                                                <label for="form-contact-email">Email *</label>
-                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Email" required>
-                                            </div>
-                                            <!--end form-group -->
-                                        </div>
-                                        <!--end col-md-6 col-sm-6 -->
-                                    </div>
-                                    <!--end row -->
-                                    <div class="form-group">
-                                        <label for="form-contact-subject">Subject *</label>
-                                        <input type="email" class="form-control" id="form-contact-subject" name="subject" placeholder="Subject" required>
-                                    </div>
-                                    <!--end form-group -->
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label for="form-contact-message">Message *</label>
-                                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Message" required></textarea>
-                                            </div>
-                                            <!--end form-group -->
-                                        </div>
-                                        <!--end col-md-12 -->
-                                    </div>
-                                    <!--end row -->
-                                    <div class="form-group clearfix">
-                                        <button type="submit" class="btn btn-primary float-right ts-btn-arrow" id="form-contact-submit">Send a Message</button>
-                                    </div>
-                                    <!--end form-group -->
-                                    <div class="form-contact-status"></div>
-                                </form>
-                                <!--end form-contact -->
-                            </div>
-                        </div>
-                        <!--end row-->
-                    </div>
-                </div>
-                <!--end container-->
-            </section>
-            <!--end #contact-->
-
-            <div class="text-dark bg-white">
-                <div class="container py-3 position-relative">
-                    <small>© 2018 ThemeStarz, All Rights Reserved</small>
-                    <a href="#page-top" class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll">
-                        <i class="fa fa-arrow-up text-white"></i>
+                  <!-- -->
+                  <div class="rd-navbar-brand">
+                    <a class="brand" href="#home"><img class="brand-logo-dark" src="images/logo-default-300x86.png" alt="" />
+                      <img class="brand-logo-light" src="images/logo-inverse-300x86.png" alt="" />
                     </a>
+                  </div>
+                  <!-- -->
                 </div>
+                <!-- -->
+
+                <!-- -->
+                <div class="rd-navbar-main-element">
+                  <!-- -->
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#about">About</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#resources">Resources</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#blog">Blog</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#contact">Contacts</a></li>
+                    </ul>
+                  </div>
+                  <!-- -->
+                </div>
+                <!-- -->
+              </div>
+              <!-- -->
             </div>
-
-        </footer>
-        <!--end #footer-->
-
-    </div>
-    <!--end page-->
-
-    <!-- Modal -->
-    <div class="modal fade text-dark" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content border-0 rounded-0">
-                <div class="modal-header bg-light px-5 pt-0 pb-5">
-                    <div class="ts-title mb-0">
-                        <figure class="ts-circle__md bg-dark rounded-0">
-                            <img src="assets/img/icon-brushes.png" alt="">
-                        </figure>
-                        <h4 class="mb-0">Web Design</h4>
-                    </div>
-
-                    <button type="button" class="close position-absolute ts-top__0 ts-right__0 m-2" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true" class="text-white">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body p-5">
-                    <h5 class="mb-4">Latest Works</h5>
-                    <div class="owl-carousel" data-owl-dots="1">
-                        <div class="slide">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="assets/img/img-work-detail-01.jpg" alt="">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h4 class="mb-3">Creative Lights</h4>
-                                        <p>
-                                            In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus
-                                            fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est
-                                            ultricies.
-                                        </p>
-                                        <a href="#" class="mb-4 text-dark d-block">
-                                            <i class="fa fa-globe ts-opacity__50 mr-2"></i>
-                                            www.example.com
-                                        </a>
-                                        <hr>
-                                        <h6>Services Included</h6>
-                                        <ul class="list-unstyled ts-opacity__50">
-                                            <li>Design</li>
-                                            <li>Coding</li>
-                                            <li>SEO Optimization</li>
-                                            <li>Hosting</li>
-                                        </ul>
-                                    </div>
-                                    <!--end col-md-8-->
-                                </div>
-                                <!--end row-->
-                            </div>
-                            <!--end container-fluid-->
-                        </div>
-                        <!--end slide-->
-                        <div class="slide">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="assets/img/img-work-detail-02.jpg" alt="">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h4 class="mb-3">Wood Ceiling</h4>
-                                        <p>
-                                            Phasellus volutpat velit nec purus elementum feugiat. Nunc feugiat fringilla turpis.
-                                            Nam sed facilisis sem. Vestibulum vitae orci nec purus fringilla condimentum.
-                                            Pellentesque id augue rhoncus, finibus sapien ut, commodo eros. Maecenas in nibh
-                                            augue. Nunc rutrum blandit massa eu aliquet. Nulla facilisi. Aenean luctus ipsum
-                                            in orci sagittis auctor vel sit amet ex
-                                        </p>
-                                        <a href="#" class="mb-4 text-dark d-block">
-                                            <i class="fa fa-globe ts-opacity__50 mr-2"></i>
-                                            www.example.com
-                                        </a>
-                                        <hr>
-                                        <h6>Services Included</h6>
-                                        <ul class="list-unstyled ts-opacity__50">
-                                            <li>Design</li>
-                                            <li>Coding</li>
-                                            <li>SEO Optimization</li>
-                                            <li>Hosting</li>
-                                        </ul>
-                                    </div>
-                                    <!--end col-md-8-->
-                                </div>
-                                <!--end row-->
-                            </div>
-                            <!--end container-fluid-->
-                        </div>
-                        <!--end slide-->
-                    </div>
-                    <!--end owl-carousel-->
-                </div>
-                <!--end modal-body-->
-            </div>
-            <!--end modal-content-->
+            <!-- -->
+          </nav>
+          <!-- -->
         </div>
-        <!--end modal-dialog-->
+        <!-- -->
+      </header>
+      <!-- -->
+
+      <!-- -->
+      <section class="section section-md section-relative">
+        <!-- -->
+        <div class="decor-1"><img src="images/decor-01-132x283.png" alt="" width="132" height="283"/></div>
+        <!-- -->
+
+        <!-- -->
+        <div class="container">
+          <!-- -->
+          <div class="row row-30 align-items-sm-center">
+            <!-- -->
+            <div class="col-md-5 col-xl-6">
+              <h1>Welcome to<span class="big d-block">Close with <span class="text-primary">Cass</span></span></h1>
+              <h4 class="heading-4">Lorem Ipsum Dolor Sit Met</h4>
+              <p class="lead-custom">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              <a class="button button-primary button-circle button-shadow" href="#">Make An Appointment</a>
+            </div>
+            <!-- / -->
+
+            <!-- -->
+            <div class="col-md-7 col-xl-6 section-relative-col-static">
+              <!-- -->
+              <div class="d-block d-xl-none"><img src="images/home-01-613x701.jpg" alt="" width="613" height="701"/></div>
+              <!-- / -->
+
+              <!-- -->
+              <div class="image-custom-wrap"><img src="images/home-01-940x816.png" alt="" width="940" height="816"/></div>
+              <!-- / -->
+            </div>
+            <!-- / -->
+          </div>
+          <!-- / -->
+        </div>
+        <!-- / -->
+      </section>
+      <!-- / -->
+
+      <!-- -->
+      <section class="section section-lg section-lg-1 section-relative bg-transparent">
+        <!-- -->
+        <div class="decor-2"><img src="images/decor-02-472x762.png" alt="" width="472" height="762"/></div>
+
+        <!-- -->
+        <div class="decor-3"><img src="images/decor-03-1343x1845.png" alt="" width="1343" height="1845"/></div>
+
+        <!-- -->
+        <div class="container">
+          <!-- -->
+          <div class="row row-30 flex-lg-row-reverse align-items-center">
+            <!-- -->
+            <div class="col-md-6 col-lg-7">
+              <!-- -->
+              <div class="block-sm">
+                <h6>About</h6>
+                <h3>A Few Words About Me</h3>
+                <p class="lead-custom">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="button button-primary button-circle button-shadow" href="#">read more</a>
+              </div>
+              <!-- / -->
+            </div>
+            <!-- / -->
+
+            <!-- -->
+            <div class="col-md-6 col-lg-5"><img src="images/home-02-470x547.jpg" alt="" width="470" height="547"/></div>
+            <!-- / -->
+          </div>
+          <!-- / -->
+        </div>
+        <!-- / -->
+      </section>
+      <!-- / -->
+
+      <!-- Counters-->
+      <section class="section section-md bg-transparent section-relative">
+        <div class="container">
+          <div class="row row-30 justify-content-center">
+            <div class="col-6 col-md-3 col-xl-2">
+              <!--Counter-->
+              <div class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">72</div>
+                </div>
+                <p class="box-counter-title">TOTAL AWARDS</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-xl-3">
+              <!--Counter-->
+              <div class="box-counter box-counter-1">
+                <div class="box-counter-main">
+                  <div class="counter">1200</div>
+                </div>
+                <p class="box-counter-title">MOTIVATED CLIENTS</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-xl-3">
+              <!--Counter-->
+              <div class="box-counter">
+                <div class="box-counter-main">
+                  <div class="counter">114</div>
+                </div>
+                <p class="box-counter-title">ORGANIZED WORKSHOPS</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-xl-2">
+              <!--Counter-->
+              <div class="box-counter box-counter-2">
+                <div class="box-counter-main">
+                  <div class="counter">25</div>
+                </div>
+                <p class="box-counter-title">WRITTEN BOOKS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services-->
+      <section class="section section-md bg-transparent section-relative text-center">
+        <div class="decor-4"><img src="images/decor-04-146x121.png" alt="" width="146" height="121"/>
+        </div>
+        <div class="container">
+          <h6>services</h6>
+          <h3>What I Offer</h3>
+          <p>My solutions are not limited just by business coaching, I provide a variety of services for everyone who is looking for proper<br class="d-none d-xl-block"> motivation or a goal that will drive you to long-lasting development and guaranteed results.
+          </p>
+          <!-- Owl Carousel-->
+        </div>
+        <div class="owl-carousel owl-carousel-services" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-xl-items="4" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false" data-dots-each="1" data-autoplay="6000">
+          <div class="services"><span class="icon icon-xl icon-primary thin-icon-time"></span>
+            <h4 class="services-title"><a href="#">Public Speaking</a></h4>
+            <p class="services-text">Improve your public speaking skills by attending a workshop developed according to your needs.</p>
+          </div>
+          <div class="services"><span class="icon icon-xl icon-primary thin-icon-pointer"></span>
+            <h4 class="services-title"><a href="#">Business Coaching</a></h4>
+            <p class="services-text">My executive business coaching services are available to a wide range of business owners and executive officers.</p>
+          </div>
+          <div class="services"><span class="icon icon-xl icon-primary thin-icon-user"></span>
+            <h4 class="services-title"><a href="#">Time Management</a></h4>
+            <p class="services-text">If you feel like there’s not enough time to do everything you need, then this service may help you.</p>
+          </div>
+          <div class="services"><span class="icon icon-xl icon-primary thin-icon-briefcase-2"></span>
+            <h4 class="services-title"><a href="#">Personal Development</a></h4>
+            <p class="services-text">Personal development is an important part of any individual’s success and I will be glad to help you.</p>
+          </div>
+          <div class="services"><span class="icon icon-xl icon-primary thin-icon-time"></span>
+            <h4 class="services-title"><a href="#">Team Development</a></h4>
+            <p class="services-text">When a team works effectively and efficiently, everyone wins. Improve your teamwork at my team development.</p>
+          </div>
+          <div class="services"><span class="icon icon-xl icon-primary thin-icon-pointer"></span>
+            <h4 class="services-title"><a href="#">Assessments</a></h4>
+            <p class="services-text">I also offer efficient assessment tools to help employers make the most of their human capital and improve their productivity.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Event spaces-->
+      <section class="section section-md section-md-big bg-transparent section-relative text-center">
+        <div class="container">
+          <h6>My Events</h6>
+          <h3>Featured Workshops</h3>
+          <div class="row row-30" data-lightgallery="group">
+            <div class="col-md-6 col-lg-4">
+              <article class="event">
+                <div class="event-image"><a href="single-post.html"><img src="images/event-01-370x282.jpg" alt="" width="370" height="282"/></a></div>
+                <h4 class="event-title"><a href="single-post.html">Achieving Better Business Balance</a></h4>
+                <div class="event-location"><span class="icon fa-map-marker icon-primary"></span><a href="single-post.html">Location: Hearst Expo, Seattle</a></div>
+                <p class="event-text">Feeling like you’re treading water with your small business and not making progress towards your goals? Then this workshop is what you need.</p><a class="event-link" href="https://youtu.be/7dTve2Hsl_0" data-lightgallery="item">view now<span class="icon fa-play-circle"></span></a>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="event">
+                <div class="event-image"><a href="single-post.html"><img src="images/event-02-370x282.jpg" alt="" width="370" height="282"/></a></div>
+                <h4 class="event-title"><a href="single-post.html">Learning to Love Your Employees</a></h4>
+                <div class="event-location"><span class="icon fa-map-marker icon-primary"></span><a href="single-post.html">Location: BRG Center, NYC</a></div>
+                <p class="event-text">In this workshop, I’ll share secrets of better understanding your employees and their needs as it can help you create a better working atmosphere.</p><a class="event-link" href="https://youtu.be/T_pQf2dm504" data-lightgallery="item">view now<span class="icon fa-play-circle"></span></a>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="event">
+                <div class="event-image"><a href="single-post.html"><img src="images/event-03-370x282.jpg" alt="" width="370" height="282"/></a></div>
+                <h4 class="event-title"><a href="single-post.html">Becoming a More Effective Manager</a></h4>
+                <div class="event-location"><span class="icon fa-map-marker icon-primary"></span><a href="single-post.html">Location: 5th Floor Studios, Dallas</a></div>
+                <p class="event-text">Managers need to be better trained to get the best out of themselves and the team they lead. That’s exactly what this workshop is about.
+</p><a class="event-link" href="https://youtu.be/7Iw9KueqZxs" data-lightgallery="item">view now<span class="icon fa-play-circle"></span></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Tweets-->
+      <section class="section section-md bg-transparent section-relative text-center">
+        <div class="decor-5"><img src="images/decor-05-648x1031.png" alt="" width="648" height="1031"/>
+        </div>
+        <div class="decor-6"><img src="images/decor-06-191x159.png" alt="" width="191" height="159"/>
+        </div>
+        <div class="container">
+          <h3>Tweets</h3>
+          <div class="owl-carousel twitter" data-twitter-username="templatemonster" data-items="1" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="0" data-mouse-drag="false" data-dots-each="1" data-autoplay="6000">
+            <div class="tweet" data-twitter-type="tweet">
+              <div class="tweet-icon"><span class="icon fa-twitter"></span></div>
+              <div class="tweet-user-name"><a href="#" data-url="href" data-user_name="text"></a></div>
+              <div class="tweet-text" data-tweet="text"></div>
+              <ul class="tweet-tags">
+                <li><a href="https://twitter.com/search?q=%23Speaker&amp;src=typd&amp;lang=en">#Speaker</a></li>
+                <li><a href="https://twitter.com/search?q=%23Life%20Couch&amp;src=typd&amp;lang=en">#LifeCoach</a></li>
+              </ul>
+            </div>
+            <div class="tweet" data-twitter-type="tweet">
+              <div class="tweet-icon"><span class="icon fa-twitter"></span></div>
+              <div class="tweet-user-name"><a href="#" data-url="href" data-user_name="text"></a></div>
+              <div class="tweet-text" data-tweet="text"></div>
+              <ul class="tweet-tags">
+                <li><a href="https://twitter.com/search?q=%23Speaker&amp;src=typd&amp;lang=en">#Speaker</a></li>
+                <li><a href="https://twitter.com/search?q=%23Life%20Couch&amp;src=typd&amp;lang=en">#LifeCoach</a></li>
+              </ul>
+            </div>
+            <div class="tweet" data-twitter-type="tweet">
+              <div class="tweet-icon"><span class="icon fa-twitter"></span></div>
+              <div class="tweet-user-name"><a href="#" data-url="href" data-user_name="text"></a></div>
+              <div class="tweet-text" data-tweet="text"></div>
+              <ul class="tweet-tags">
+                <li><a href="https://twitter.com/search?q=%23Speaker&amp;src=typd&amp;lang=en">#Speaker</a></li>
+                <li><a href="https://twitter.com/search?q=%23Life%20Couch&amp;src=typd&amp;lang=en">#LifeCoach</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Learning Classes-->
+      <section class="section section-md bg-transparent section-relative text-center">
+        <div class="container">
+          <h6>Coaching by My Partners</h6>
+          <h3>Online Courses</h3>
+          <div class="row row-30">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <article class="course">
+                <div class="course-img"><a href="single-post.html"><img src="images/courses-01-270x289.jpg" alt="" width="270" height="289"/></a></div>
+                <div class="course-body">
+                  <div class="course-body-meta">
+                    <div>
+                      <div class="unit unit-spacing-xs">
+                        <div class="unit-left"><img src="images/avatar-01-34x34.jpg" alt="" width="34" height="34"/>
+                        </div>
+                        <div class="unit-body"><a href="single-post.html">Peter Smith</a></div>
+                      </div>
+                    </div>
+                    <div class="course-price"><span>Free</span></div>
+                  </div>
+                  <div class="course-title">
+                    <h5><a href="single-post.html">Control Your Life</a></h5>
+                  </div>
+                  <div class="course-divider"></div>
+                  <div class="course-footer">
+                    <ul class="course-rating">
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star-half"></span></li>
+                    </ul>
+                    <div class="course-amount"><span class="icon fa-users"></span><a href="single-post.html">120</a></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <article class="course">
+                <div class="course-img"><a href="single-post.html"><img src="images/courses-02-270x289.jpg" alt="" width="270" height="289"/></a></div>
+                <div class="course-body">
+                  <div class="course-body-meta">
+                    <div>
+                      <div class="unit unit-spacing-xs">
+                        <div class="unit-left"><img src="images/avatar-02-34x34.jpg" alt="" width="34" height="34"/>
+                        </div>
+                        <div class="unit-body"><a href="single-post.html">Kate Wilson</a></div>
+                      </div>
+                    </div>
+                    <div class="course-price"><span>$435</span></div>
+                  </div>
+                  <div class="course-title">
+                    <h5><a href="single-post.html">Your Commercial Success</a></h5>
+                  </div>
+                  <div class="course-divider"></div>
+                  <div class="course-footer">
+                    <ul class="course-rating">
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star-half"></span></li>
+                    </ul>
+                    <div class="course-amount"><span class="icon fa-users"></span><a href="single-post.html">120</a></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <article class="course">
+                <div class="course-img"><a href="single-post.html"><img src="images/courses-03-270x289.jpg" alt="" width="270" height="289"/></a></div>
+                <div class="course-body">
+                  <div class="course-body-meta">
+                    <div>
+                      <div class="unit unit-spacing-xs">
+                        <div class="unit-left"><img src="images/avatar-03-34x34.jpg" alt="" width="34" height="34"/>
+                        </div>
+                        <div class="unit-body"><a href="single-post.html">Jack Adams</a></div>
+                      </div>
+                    </div>
+                    <div class="course-price"><span>$321</span></div>
+                  </div>
+                  <div class="course-title">
+                    <h5><a href="single-post.html">Financial Stability</a></h5>
+                  </div>
+                  <div class="course-divider"></div>
+                  <div class="course-footer">
+                    <ul class="course-rating">
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star-half"></span></li>
+                    </ul>
+                    <div class="course-amount"><span class="icon fa-users"></span><a href="single-post.html">120</a></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <article class="course">
+                <div class="course-img"><a href="single-post.html"><img src="images/courses-04-270x289.jpg" alt="" width="270" height="289"/></a></div>
+                <div class="course-body">
+                  <div class="course-body-meta">
+                    <div>
+                      <div class="unit unit-spacing-xs">
+                        <div class="unit-left"><img src="images/avatar-04-34x34.jpg" alt="" width="34" height="34"/>
+                        </div>
+                        <div class="unit-body"><a href="single-post.html">Mike Anderson</a></div>
+                      </div>
+                    </div>
+                    <div class="course-price"><span>Free</span></div>
+                  </div>
+                  <div class="course-title">
+                    <h5><a href="single-post.html">Employees’ Productivity</a></h5>
+                  </div>
+                  <div class="course-divider"></div>
+                  <div class="course-footer">
+                    <ul class="course-rating">
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star"></span></li>
+                      <li><span class="icon fa-star-half"></span></li>
+                    </ul>
+                    <div class="course-amount"><span class="icon fa-users"></span><a href="single-post.html">120</a></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Brands-->
+      <section class="section section-sm bg-gray-700 text-center section-relative">
+        <div class="container">
+          <div class="group-flex"><a class="image-link" href="#"><img src="images/brand-01-155x43.png" alt="" width="155" height="43"/></a><a class="image-link" href="#"><img src="images/brand-02-200x47.png" alt="" width="200" height="47"/></a><a class="image-link" href="#"><img src="images/brand-03-117x42.png" alt="" width="117" height="42"/></a><a class="image-link" href="#"><img src="images/brand-04-115x39.png" alt="" width="115" height="39"/></a><a class="image-link" href="#"><img src="images/brand-05-168x48.png" alt="" width="168" height="48"/></a></div>
+        </div>
+      </section>
+      <div class="section section-md bg-gray-800 footer-classic-pre section-relative">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h6>latest posts</h6>
+              <ul class="list list-lg">
+                <li>
+                  <article class="post-latest">
+                    <div class="post-latest-title"><a href="single-post.html">Difference Between Business Coaching and Mentoring</a></div>
+                    <div class="post-latest-time"><a href="single-post.html">Oct 18, 2019</a></div>
+                  </article>
+                </li>
+                <li>
+                  <article class="post-latest">
+                    <div class="post-latest-title"><a href="single-post.html">How to Become More Successful in Everyday Activities</a></div>
+                    <div class="post-latest-time"><a href="single-post.html">Oct 18, 2019</a></div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <h6>Services</h6>
+              <ul class="list list-xs">
+                <li><a href="#">Time Management</a></li>
+                <li><a href="#">Personal Development</a></li>
+                <li><a href="#">Leadership</a></li>
+                <li><a href="#">Business Training</a></li>
+                <li><a href="#">Public Speaking</a></li>
+                <li><a href="#">Sales Training</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+              <h6>Quick Links</h6>
+              <ul class="list list-xs">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="online-lectures.html">Online Lectures</a></li>
+                <li><a href="events.html">News</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-8 col-md-12 col-lg-4">
+              <h6>Make an Appointment</h6>
+              <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                <div class="form-wrap">
+                  <label class="form-label" for="footer-name">Name</label>
+                  <input class="form-input" id="footer-name" type="text" name="name" data-constraints="@Required">
+                </div>
+                <div class="form-wrap">
+                  <label class="form-label" for="footer-email">E-Mail</label>
+                  <input class="form-input" id="footer-email" type="email" name="email" data-constraints="@Required @Email">
+                </div>
+                <div class="form-button group-sm text-center text-sm-left">
+                  <button class="button button-primary button-circle button-shadow" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-classic section bg-gray-900 text-center section-relative">
+        <div class="container">
+          <div class="row row-15 align-items-center">
+            <div class="col-md-4 text-md-left">
+              <div class="brand"><a href="index.html"><img src="images/logo-inverse-300x86.png" alt="" width="150" height="43"/></a></div>
+            </div>
+            <div class="col-md-8 text-md-right">
+              <p class="rights"><span>©</span> <span class="copyright-year"></span><span>&nbsp;</span><span>All Rights Reserved</span><span>.&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <!--end modal-->
-
-	<script src="assets/js/custom.hero.js"></script>
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<script src="assets/js/isInViewport.jquery.js"></script>
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="assets/js/scrolla.jquery.min.js"></script>
-	<script src="assets/js/jquery.validate.min.js"></script>
-	<script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
-	<script src="assets/js/odometer.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-
-</body>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
